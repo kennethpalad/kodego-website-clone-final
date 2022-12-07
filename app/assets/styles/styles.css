@@ -1,12 +1,9 @@
 @import "normalize.css";
-@import  "./modules/_container";
+@import "./base/_global";
+@import "./modules/_container";
 
-*{
-    box-sizing: border-box;
-}
-a,a:active{
-    text-decoration: none;
-    color: inherit;
+.nav{
+    float: right; 
 }
 
 .nav li{
@@ -14,9 +11,6 @@ a,a:active{
     margin-right: 1.5em;
 }
 
-.nav{
-    float: right; 
-}
 
 .user-links{
     float: right;
